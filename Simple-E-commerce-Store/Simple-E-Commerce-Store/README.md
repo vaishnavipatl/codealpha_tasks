@@ -44,13 +44,9 @@ Before you begin, ensure you have met the following requirements:
 
 ## Setup
 
-1. **Clone the repository:**
-   ```sh
-   git clone https://github.com/aashish-dhiman/E-Commerce.git
-   cd E-Commerce
-   ```
 
-2. **Setup the Backend:**
+
+1. **Setup the Backend:**
    - Navigate to the backend directory:
      ```sh
      cd backend
@@ -65,7 +61,7 @@ Before you begin, ensure you have met the following requirements:
      npm run dev
      ```
 
-3. **Setup the Frontend:**
+2. **Setup the Frontend:**
    - Navigate to the frontend directory:
      ```sh
      cd ../client
@@ -80,7 +76,7 @@ Before you begin, ensure you have met the following requirements:
      npm run dev
      ```
 
-4. **Access the Application:**
+3. **Access the Application:**
    - Visit `http://localhost:5173` in your browser to access the Flipkart clone.
    - You can access the admin panel at `http://localhost:5173/dashboard/admin` (login required).
 
@@ -104,7 +100,7 @@ STRIPE_SECRET_KEY=YOUR_STRIPE_SECRET_KEY
 VITE_API=http://localhost:8080
 VITE_STRIPE_PUBLISH_KEY=YOUR_STRIPE_PUBLISH_KEY
 VITE_STRIPE_SECRET_KEY=YOUR_STRIPE_SECRET_KEY
-VITE_SERVER_URL=SERVER_BASE_URL_WITHOUT_TRAILING_SLASH (in case you want deployed server url- https://e-commerce-mgtd.onrender.com without any / at end)
+VITE_SERVER_URL=SERVER_BASE_URL_WITHOUT_TRAILING_SLASH 
 ```
 
 ## Contributing
